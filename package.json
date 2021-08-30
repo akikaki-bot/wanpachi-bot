@@ -1,0 +1,15 @@
+{
+  "name": "inunuwan",
+  "version": "1.0.0",
+  "description": "This is wanpachi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "inu",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "nodemon": "^2.0.12"
+  }
+}
