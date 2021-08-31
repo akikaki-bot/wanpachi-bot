@@ -26,4 +26,7 @@ bot is ready!
 これらのシリーズの動画
 htps://www.youtube.com/watch?v=-_MGnBeLYN4
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/main
