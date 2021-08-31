@@ -7,7 +7,8 @@ module.exports = new command ({
     async run(message, args){
         if(args = null) return message.channel.send('ﾜﾝ! (因数が不正です。)')
         else {
-        message.channel.send(args.slice(1))
+        message.channel.send(args)
+        message.delete()
         }
     }
 })

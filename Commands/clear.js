@@ -4,6 +4,13 @@ const { permission } = require('./buttons.js')
 module.exports = new command ({
     name:"clear",
     description:"clear the message.",
+    type:"BOTH",
+    slashCommandOptions:[{
+        name: "消す数",
+		description: "メッセージを指定した数消します。",
+		type: "INTEGER",
+		required: true
+    }],
     permission:"ADMINISTRATOR",
 
     async run (message,args,client){

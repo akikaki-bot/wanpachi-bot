@@ -3,14 +3,15 @@ const Discord = require('discord.js')
 
 module.exports = new command({
  name:"button",
- description:"button test",
+description:"",
 
  async run(message, args , client){
     const button = new Discord.MessageButton()
-    .setStyle("PRIMARY")
+    button.setStyle("PRIMARY")
+    .setCustomId("message")
     .setLabel("nube")
-  await message.channel.send({ buttons: [button] });
- }
-
+  await message.channel.send({ content : "This is button test.",
+  components:[new Discord.MessageActionRow().addComponents(button)] });
+ },
 
 })
